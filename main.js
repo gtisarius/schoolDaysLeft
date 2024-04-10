@@ -100,7 +100,7 @@ fs.createReadStream("./calendar.csv")
         //console.log(schoolDays)
         //console.log(schoolDays.length)
         console.log(`Today's date is ${getFormattedDate(currentDate)}. \n`)
-        console.log(`There are \n${schoolDays.length}\ndays left in the year.\n`)
+        console.log(`There are: ${schoolDays.length} school days left in the year.\n\nThere are: ${days.length} *BROKEN* days total left in the school year.\n`)
 
         //console.log(newDate)
         //console.log(prevDays)
